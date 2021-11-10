@@ -33,13 +33,29 @@ class App extends React.Component {
     return (
       <>
         <div>
-          <h1>Hello {this.state.userName} from Bridgelabz</h1>
-          <img src = {logo} onClick={this.onClick} alt ="The Bridgelabz logo: a Bridge to Employment through lab works"/>
+          <h1>Hello {this.state.userName} from Bridgelabz </h1>
+          <img src = {logo} onClick={this.onClick} class = "center" alt ="The Bridgelabz logo: a Bridge to Employment through lab works"/>
         </div>
-        <div>
+        <div class ="textbox">
           <input onChange={this.onNameChange} />
           <span className="error-output">{this.state.nameError}</span>
 
+        </div>
+        <div>
+          <p>At BridgeLabz, we're a community of</p><br/>
+          <ul>
+            <li>Technologists</li>
+            <li>thinkers</li>
+            <li>builders</li>
+          </ul>
+          <br/>
+          <p> Working together to keep the Tech Employability of Engineers alive and accessible. so tech companies worldwide
+            can get contributers and creaters for Technology Solutions. We believe this act of human collaboration across an 
+            employabibility platform is essential to individual growth and our collective future.
+          </p><br/>
+          <p>To Know about us, visit <a href="https://www.bridgelabz.com/">Bridgelabz</a>
+          to learn even more about our mission i.e.<b> Employability to all</b></p>
+          
         </div>
       </>
     
