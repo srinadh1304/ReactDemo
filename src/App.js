@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
-import logo from './assets/img/logo.jpeg'
+import logo from './assets/download.jpeg'
 class App extends Component 
 {
   url='https://www.bridgelabz.com/'
